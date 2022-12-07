@@ -14,7 +14,7 @@ It will save booking headaches and give clients the convenience they expect with
 ---Features---
   Users Authentication: Customers/Barbers Login
   APIs:
-- Google Maps
+- Google Search / Maps
 - Google calendar
 - Stripe
 
