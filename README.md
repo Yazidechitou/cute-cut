@@ -3,7 +3,7 @@ Personal Project
 
 ---ABOUT THE PROJECT---
 
-The project will be based on cryptocurrencies
+My project is a source for crypto news, coin stats and cryptocurrency tracking.
 User will be able to access Cryptos List, Price and News after they login.
 1- User login/logout
 2- APis;
