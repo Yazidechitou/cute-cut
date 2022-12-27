@@ -1,4 +1,4 @@
-# cute-cut
+# Crypto Cut
 Personal Project
 
 ---ABOUT THE PROJECT---
