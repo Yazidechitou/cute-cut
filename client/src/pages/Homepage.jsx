@@ -14,7 +14,7 @@ export default function Homepage({listOfCryptos,listOfCryptosNews}) {
                 <Col span={12}><Statistic title="Total Market Cap:" value={`${millify(listOfCryptos.data["stats"]['totalMarketCap'])}`} /></Col>
             </Row>
             <div className="home-heading-container">
-                <Typography.Title level={2} className="home-title">Top 5 Cryptos in The World</Typography.Title >
+                <Typography.Title level={2} className="home-title">Top 10 Cryptos in The World</Typography.Title >
                 <Typography.Title level={3} className="show-more"><Link to="/cryptocurrencies">Show More</Link></Typography.Title >
             </div>
             <Cryptocurrencies topFive listOfCryptos={listOfCryptos}/>

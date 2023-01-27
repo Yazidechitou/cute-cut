@@ -10,3 +10,7 @@ class AppUser (AbstractUser):
 
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = []
+
+class Favorites (models.Model):
+    crypto = models.CharField(max_length=255)
+    favorites = models.ForeignKey(AppUser,on_delete=models.SET_NULL, blank=True, null=True)

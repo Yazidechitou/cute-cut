@@ -57,7 +57,6 @@ def signOut(request):
 def current_user (request):
     if request.user.is_authenticated:
         data = serialize("json", [request.user], fields=["email"])
-        print(data)
         return JsonResponse(data, safe=False)
     return JsonResponse({"user":None})
 

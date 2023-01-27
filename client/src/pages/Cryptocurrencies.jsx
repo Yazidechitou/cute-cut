@@ -5,7 +5,7 @@ import {HeartTwoTone,getTwoToneColor,setTwoToneColor } from '@ant-design/icons';
 
 export default function Cryptocurrencies ({ topFive, listOfCryptos, addToFavorites}) {
 
-    const count = topFive ? 5 : listOfCryptos.data["stats"]['totalCoins']
+    const count = topFive ? 10 : listOfCryptos.data["stats"]['totalCoins']
     const [cryptos, setCryptos] = useState(listOfCryptos.data.coins);
     const [searchTerm, setSearchTerm] = useState('');
     // const [twoToneColor,settwoToneColor] = useState("blue");
